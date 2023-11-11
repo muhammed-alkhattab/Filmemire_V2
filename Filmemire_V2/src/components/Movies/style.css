@@ -1,0 +1,33 @@
+.featuredCardContainer{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    height: 490px;
+    text-decoration: none;
+
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: relative;
+}
+.cardMedia{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    background-blend-mode: darken;
+}
+.cardContent{
+    color: #fff;
+    width: 40%;
+    position: relative;
+    background-color: transparent;
+}
+@media (max-width: 767px) {
+.car.cardContent{width: 100%;}}

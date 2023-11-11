@@ -1,0 +1,17 @@
+.link:hover{
+    cursor: pointer;
+    
+}
+.image:hover{
+    transform: scale(1.05);
+}
+.image{
+    width: 200px;
+    height: 300px;
+}
+
+@media (max-width: 767px) {
+    .image {
+      width: 100%; /* Set the image width to 100% of the viewport width */
+      height: 300px; /* Maintain the image's aspect ratio */
+    }}
